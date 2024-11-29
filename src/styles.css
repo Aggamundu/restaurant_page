@@ -1,0 +1,28 @@
+body{
+    height:100vh;
+    margin:0px;
+}
+html{
+    height:100vh;
+}
+#chefsImage{
+    max-height: 50vh;
+}
+
+#descDiv{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:70vh;
+    margin-top:5vh;
+    border-radius: 3px;
+    background-color: hwb(0 0% 100% / 0.629);
+    border: none;
+}
+.desc{
+    font-family: 'Montserrat';
+    color:rgb(255, 255, 255);
+    font-size: 4vh;
+    margin:1vh;
+}

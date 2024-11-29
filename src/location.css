@@ -1,0 +1,21 @@
+#locContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:50vw;
+    height:65vh;
+    margin-top:5vh;
+    border-radius: 3px;
+    background-color: hwb(0 0% 100% / 0.629);
+    border: none;
+}
+#locDesc{
+    color:white;
+    font-size: 3vh;
+    font-family: "Montserrat";
+}
+#livicImg{
+    width:40vw;
+    border-radius: 5px;
+}

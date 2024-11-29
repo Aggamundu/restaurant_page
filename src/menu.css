@@ -1,0 +1,29 @@
+
+#container{
+    background-color: hwb(0 0% 100% / 0.629);
+    border: none;
+    width:70vw;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:25px;
+    grid-template-rows: auto;
+    padding:30px 30px;
+    border-radius: 5px;
+    height:calc(45vw);
+    margin-top:5vh;
+}
+.dishImg{
+    max-width: 20vw;
+}
+.card{
+    background-color: hwb(0 0% 100% / 0.529);
+    color:white;
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    /* max-width: 18vw;
+    max-height: 18vw;  */
+}
